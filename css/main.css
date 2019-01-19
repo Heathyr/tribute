@@ -1,0 +1,144 @@
+body {
+  background-color: white;
+  text-align: center;
+  min-width: 260px;
+  font-size: 14px;
+}
+
+#main {
+  font-family: 'Ubuntu', sans-serif;
+  color: #5900b3;
+  margin: 10px;
+}
+
+#title {
+  font-family: 'Anton', sans-serif;
+  font-size: 40px;
+  letter-spacing: 7px;
+  margin: 10px 5px;
+  padding-top: 20px;
+  background-image:
+    -webkit-gradient(linear, left top, right top, color-stop(0, #f00), color-stop(0.15, #f00), color-stop(0.3, #f00), color-stop(0.45, #f2f), color-stop(0.6, #f2f),color-stop(0.75, #f00), color-stop(0.8, #f00), color-stop(1, #f00) );
+  background-image:
+    gradient(linear, left top, right top, color-stop(0, #f00), color-stop(0.15, #f00), color-stop(0.3, #f00), color-stop(0.45, #f2f), color-stop(0.6, #f2f),color-stop(0.75, #f00), color-stop(0.8, #f00), color-stop(1, #f00) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+header p {
+  font-family: 'Anton', sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-top: 10px;
+}
+
+#img-div {
+  width: 100%;
+  height: auto;
+  border: 5px solid white;
+  background: white;
+  align: center;
+}
+
+@media (max-width: 1200px) {
+  #image {
+  width: 100%;
+  align: center;
+  }
+}
+@media (max-width: 1000px) {
+  #image {
+  width: 100%;
+  align: center;
+  }
+}
+@media (max-width: 800px) {
+  #image {
+  width: 100%;
+  align: center;
+  }
+}
+@media (max-width: 400px) {
+  #image {
+  width: 100%;
+  align: center;
+  }
+}
+
+#img-caption {
+  background-color: lavender;
+  color: #383838;
+  font-size: 12px;
+  margin-top: -4px;
+  border: 1px solid lavender;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#tribute-info p {
+  line-height: 18px;
+  max-width: 50%;
+  margin-top: 50px;
+  margin-left: 250px;
+}
+
+.carmen-quote {
+  background-image:
+    -webkit-gradient(linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #0ff), color-stop(0.8, #ff2), color-stop(1, #f22) );
+  background-image:
+    gradient(linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #0ff), color-stop(0.8, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-style: italic;
+  margin: 10px 100px;
+  padding: 5px;
+  align: center;
+}
+
+ul {
+  max-width: 550px;
+  margin: 0 auto;
+  text-align: left;
+  list-style: none;
+}
+
+li {
+  margin: 12px 0;
+}
+
+.underline {
+  font-weight: 900;
+  text-decoration: underline;
+}
+
+.italics {
+  font-style: italic;
+}
+
+.bold-carmen {
+  color: hsl(336, 100%, 50%);
+  font-style: normal;
+  font-weight: 900;
+}
+
+.other-quote {
+  color: hsl(200, 80%, 70%);
+  font-style: italic;
+  text-align: center;
+  margin: 0px 100px;
+  padding: 5px;
+}
+
+.bold {
+  color: hsl(200, 70%, 45%);
+  font-style: normal;
+  font-weight: 700;
+}

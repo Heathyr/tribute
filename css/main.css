@@ -1,14 +1,16 @@
 body {
-  background-color: white;
-  text-align: center;
+  background-color: lavender;
   min-width: 260px;
   font-size: 14px;
+  text-align: center;
 }
 
 #main {
+  background-color: hsl(0,0%,98%);
   font-family: 'Ubuntu', sans-serif;
   color: #5900b3;
   margin: 10px;
+  padding: 20px;
 }
 
 #title {
@@ -18,9 +20,9 @@ body {
   margin: 10px 5px;
   padding-top: 20px;
   background-image:
-    -webkit-gradient(linear, left top, right top, color-stop(0, #f00), color-stop(0.15, #f00), color-stop(0.3, #f00), color-stop(0.45, #f2f), color-stop(0.6, #f2f),color-stop(0.75, #f00), color-stop(0.8, #f00), color-stop(1, #f00) );
+    -webkit-gradient(linear, left top, left bottom, color-stop(0, #f0f), color-stop(0.15, #f0f), color-stop(0.3, #f00), color-stop(0.45, #f2f), color-stop(0.6, #f2f),color-stop(0.75, #f00), color-stop(0.8, #f0f), color-stop(1, #f0f) );
   background-image:
-    gradient(linear, left top, right top, color-stop(0, #f00), color-stop(0.15, #f00), color-stop(0.3, #f00), color-stop(0.45, #f2f), color-stop(0.6, #f2f),color-stop(0.75, #f00), color-stop(0.8, #f00), color-stop(1, #f00) );
+    gradient(linear, left top, left bottom, color-stop(0, #f0f), color-stop(0.15, #f0f), color-stop(0.3, #f00), color-stop(0.45, #f2f), color-stop(0.6, #f2f),color-stop(0.75, #f00), color-stop(0.8, #f0f), color-stop(1, #f0f) );
   color:transparent;
   -webkit-background-clip: text;
   background-clip: text;
@@ -34,7 +36,8 @@ header p {
 }
 
 #img-div {
-  width: 100%;
+  display: block;
+  max-width: 100%;
   height: auto;
   border: 5px solid white;
   background: white;
@@ -89,11 +92,23 @@ h3 {
   margin-left: 250px;
 }
 
+.quote {
+  display: block;
+  max-width: 900px;
+  height: auto;
+  margin: 10px auto;
+}
+
 .carmen-quote {
+  background-image: linear-gradient(to left, rgba(255,255,0,0.1), rgba(255,255,0,0.2), rgba(255,250,0,0.1));
+  border-radius: 50%;
+}
+
+.carmen-text {
   background-image:
-    -webkit-gradient(linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #0ff), color-stop(0.8, #ff2), color-stop(1, #f22) );
+    -webkit-gradient(linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #22f), color-stop(0.8, #f2f), color-stop(1, #f22) );
   background-image:
-    gradient(linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #0ff), color-stop(0.8, #ff2), color-stop(1, #f22) );
+    gradient(linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #22f), color-stop(0.8, #f2f), color-stop(1, #f22) );
   color:transparent;
   -webkit-background-clip: text;
   background-clip: text;
@@ -104,7 +119,7 @@ h3 {
 }
 
 ul {
-  max-width: 550px;
+  max-width: 1000px;
   margin: 0 auto;
   text-align: left;
   list-style: none;
@@ -124,12 +139,16 @@ li {
 }
 
 .bold-carmen {
+  max-width: 1000px;
   color: hsl(336, 100%, 50%);
   font-style: normal;
   font-weight: 900;
 }
 
 .other-quote {
+  background-color: lightgrey;
+  border-radius: 25%;
+  max-width: 1000px;
   color: hsl(200, 80%, 70%);
   font-style: italic;
   text-align: center;
@@ -137,8 +156,19 @@ li {
   padding: 5px;
 }
 
+.other-text {
+  font-style: italic;
+  margin: 10px 100px;
+  padding: 5px;
+  align: center;
+}
+
 .bold {
   color: hsl(200, 70%, 45%);
   font-style: normal;
   font-weight: 700;
+}
+
+footer {
+  padding-bottom: 20px;
 }
